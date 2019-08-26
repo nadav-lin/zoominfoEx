@@ -1,0 +1,6 @@
+<div style="height: 80%">
+  <app-questions-buttons [question]="getCurrentQuestion()" [questionNumber]="currentQuestionIndex"
+                         (nextQuestion)="incrementIndex()"></app-questions-buttons>
+  <app-question-place [numberOfQuestions]="getQuestions().length" [currentQuestionIndex]="currentQuestionIndex">
+  </app-question-place>
+</div>

@@ -1,0 +1,16 @@
+.main-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.upside {
+  transform: rotate(180deg);
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  align-self: center;
+}

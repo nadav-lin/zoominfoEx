@@ -1,0 +1,28 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.centered {
+  align-self: center;
+}
+
+.question {
+  display: inline;
+}
+
+.question-start {
+  color:  lightskyblue;
+}
